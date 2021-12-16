@@ -1,0 +1,41 @@
+    html { 
+        height: 100%; 
+    }
+    body { 
+        background: #FFF;
+        /*font: 400 1.5em/1.5 "Droid Serif", serif; color: #111;*/
+        
+        height: 100%; 
+    }
+    @media only screen and (min-width:1000px) {
+        .banner .bannertext {
+          background-attachment: inherit;
+        }
+      
+        #bannertext h1 { 
+            font: 100px "Dancing Script", crusive;
+            text-align: center; 
+        }
+
+        #bannertext p { 
+            font: 1.5em/1.5 "poppins", sans-serif;
+            text-align: center;
+            color:#FFF;  
+        }
+
+        #banner { 
+            background: url(../images/269.jpg);
+            background-size: cover; color: #fff;
+            height: 100%; width: 100%;
+        }
+        #bannertext { 
+            width: 38em;
+            position: fixed;
+            top: 20%;
+            left: 50%;
+            border: .5em solid #fff;
+            border-radius: 50%;
+            margin-left: -18em;
+            padding: 13em 0; 
+        }
+    }
